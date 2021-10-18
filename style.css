@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    background-color: orange;
+    font-family: sans-serif;
+    font-size: 14pt;
+}
+
+.container-calculadora {
+    background-color: orchid;
+    margin: 10vh auto;
+    height: 450px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.resultado {
+    background-color: #fafafa;
+    height: 50px;
+    width: 280px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.container-operacoes {
+    width: 500px;
+    display: flex;
+}
+
+.operacoes {
+    background-color: lightgray;
+    height: 62px;
+    width: 62px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+}
+
+.operacoes:hover {
+    cursor: pointer;
+    background-color: rgb(233, 230, 230);
+}
+
+.container-numeros {
+    width: 216px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.numeros {
+    background-color: aliceblue;
+    height: 62px;
+    width: 62px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+}
+
+.numeros:hover {
+    cursor: pointer;
+    background-color: rgb(250, 250, 250);
+}
+
+.container-operadores {
+    height: 213px;
+    width: 62px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin-left: 10px;
+}
+
+.operadores {
+    background-color: lightgray;
+    height: 62px;
+    width: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+}
+
+.operadores:hover {
+    cursor: pointer;
+    background-color: rgb(233, 230, 230);
+}
+
+.operadores:nth-child(3) {
+    background-color: rgb(93, 188, 219);
+}
+
+.operadores:nth-child(3):hover {
+    cursor: pointer;
+    background-color: rgb(107, 200, 231);
+}
+
+.operadores img {
+    width: 16px;
+}
